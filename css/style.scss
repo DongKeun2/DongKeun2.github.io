@@ -81,6 +81,9 @@ button.btn, input.btn {
   i {
     padding-right: 0.5em;
   }
+  img {
+    padding-right: 0.5em;
+  }
   @include bp-xsmall {
     @include horizontal-align;
     margin-bottom: 0.5em;
