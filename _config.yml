@@ -100,4 +100,4 @@ nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
