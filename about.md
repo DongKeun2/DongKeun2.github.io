@@ -3,6 +3,23 @@ layout: inner
 title: About
 permalink: /about/
 ---
+
+## 이동근
+
+![내 사진](/img/myphoto.jpg)
+물리학 전공
+Python(비전공) 트랙
+
+
+### 선호 기술 스택
+Vue
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
+React
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+
+
+
+<!-- 
 ## Markdown
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
@@ -203,3 +220,4 @@ nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
 {% endhighlight %}
+-->

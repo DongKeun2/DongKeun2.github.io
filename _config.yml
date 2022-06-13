@@ -98,6 +98,7 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/post', text: 'Post' }
   - { url: '/about', text: 'About' }
 
 # theme: jekyll-theme-minimal
