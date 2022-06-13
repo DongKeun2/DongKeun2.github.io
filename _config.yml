@@ -17,7 +17,7 @@ title: "Hello. I'm DongKeun Lee."
 email: 'ehdrms121@naver.com'
 description: "인생"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dongkeun2.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://dongkeun2.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
 tistory_username: 'dongkeun2'
 github_username: 'DongKeun2'
 notion_username: 'DongKeun-PORTFOLIO-f6b1e569e9a14ac292a33c77852280e1'
