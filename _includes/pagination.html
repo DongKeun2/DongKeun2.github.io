@@ -1,9 +1,7 @@
 {% if paginator.total_pages > 1 %}
-<h1>hi</h1>
 <nav class="pagination-wrap">
     <ul class="pagination">
         {% if paginator.previous_page %}
-        <h1>bye</h1>
         <li>
             <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
