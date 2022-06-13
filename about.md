@@ -18,10 +18,14 @@ SSAFY 1학기 성적 우수자
 
 
 ## Front-end
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" style="border-radius: 50%; width: 250px;"/>
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" style="border-radius: 10%; width: 250px;"/>
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" style="border-radius: 50%; width: 250px;"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" style="border-radius: 10%; width: 250px;"/>
 
+
+## 취미
+
+👟산책하기
 
 ## 2학기 목표 & 하고싶은 말
 
