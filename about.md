@@ -3,22 +3,31 @@ layout: inner
 title: About
 permalink: /about/
 ---
+# 만나서 반갑습니다😊
 
-<div>
-  <img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
-  <h2>이동근</h2>
-  물리학 전공
 
-  Python(비전공) 트랙
+## 이동근
+<img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
 
-  SSAFY 1학기 성적 우수자
-</div>
+물리학 전공
 
-## 선호 기술 스택 (Front-end)
+Python(비전공) 트랙
+
+SSAFY 1학기 성적 우수자
+
+백엔드 & 프론트엔드 경험
+
+
+## Front-end 희망합니다.
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
 
-## 하고싶은 말
+
+## 2학기 목표 & 하고싶은 말
+
+포트폴리오에 자랑스럽게 올릴 수 있는 프로젝트를 만들고 싶습니다!
+
+프로젝트 동안 서로 부족한 부분을 채워주고 함께 성장할 수 있으면 좋겠습니다!
 
 소통을 좋아하시는 분들과 함께하고 싶습니다!
 
