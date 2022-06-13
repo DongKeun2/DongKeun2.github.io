@@ -4,13 +4,15 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
-## 이동근
-물리학 전공
+<div>
+  <img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
+  <h2>이동근</h2>
+  물리학 전공
 
-Python(비전공) 트랙
+  Python(비전공) 트랙
 
-SSAFY 1학기 성적 우수자
+  SSAFY 1학기 성적 우수자
+</div>
 
 ## 선호 기술 스택 (Front-end)
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
