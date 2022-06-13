@@ -5,10 +5,9 @@ permalink: /about/
 ---
 # 만나서 반갑습니다😊
 
-
-## 이동근
 <img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
 
+## 이동근
 물리학 전공
 
 Python(비전공) 트랙
@@ -18,9 +17,10 @@ SSAFY 1학기 성적 우수자
 백엔드 & 프론트엔드 경험
 
 
-## Front-end 희망합니다.
+## Front-end
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" style="border-radius: 10%;"/>
 
 
 ## 2학기 목표 & 하고싶은 말
