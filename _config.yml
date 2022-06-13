@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm DongKeun Lee."
 email: 'ehdrms121@naver.com'
-description: "노력천재"
+description: "인생"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dongkeun2.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 tistory_username: 'dongkeun2'
@@ -98,7 +98,6 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/post', text: 'Post' }
   - { url: '/about', text: 'About' }
 
 # theme: jekyll-theme-minimal

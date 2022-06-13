@@ -4,20 +4,23 @@ title: About
 permalink: /about/
 ---
 
-## 이동근
-
 ![내 사진](/img/myphoto.jpg)
+## 이동근
 물리학 전공
+
 Python(비전공) 트랙
 
+SSAFY 1학기 성적 우수자
 
-### 선호 기술 스택
-Vue
+## 선호 기술 스택 (Front-end)
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
-React
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
 
+## 하고싶은 말
 
+소통을 좋아하시는 분들과 함께하고 싶습니다!
+
+잘 부탁드립니다!
 
 <!-- 
 ## Markdown
