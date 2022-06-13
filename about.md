@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.url }}/img/myphoto.png" alt="myphoto" style="width: 250px; height: 326px;">
+<img src="{{ site.url }}/img/myphoto.jpg" alt="myphoto" style="width: 250px; height: 326px;">
 ## 이동근
 물리학 전공
 
