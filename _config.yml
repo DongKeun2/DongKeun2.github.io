@@ -103,4 +103,4 @@ nav_item:
   - { url: '/about', text: 'About' }
 
 # theme: jekyll-theme-minimal
-futrue: true
+future: true
