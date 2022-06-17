@@ -119,6 +119,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DongKeun2"
+    - label: "Tistory"
+      icon:
+      url: "https://dongkeun2.tistory.com/"
     - label: "Portfolio"
       icon: "fas fa-fw fa-address-card-o"
       url: "https://bumpy-floor-978.notion.site/DongKeun-PORTFOLIO-f6b1e569e9a14ac292a33c77852280e1"
