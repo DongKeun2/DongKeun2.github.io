@@ -24,7 +24,7 @@ title                    : "DongKeun Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "DongKeun Lee"
-description              : "소소하게 기록하는 블로그 입니다🙇‍♀️"
+description              : 
 url                      : "https://DongKeun2.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DongKeun2/DongKeun2.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
