@@ -1,11 +1,11 @@
 ---
-title: "Spring"
+title: "React"
 layout: archive
-permalink: categories/spring
+permalink: categories/react
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Spring %}
+{% assign posts = site.categories.React %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

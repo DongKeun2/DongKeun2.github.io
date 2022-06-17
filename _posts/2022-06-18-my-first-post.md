@@ -3,7 +3,7 @@ title:  "블로그 개설 첫 포스팅 테스트"
 excerpt: "첫번째 포스팅"
 
 categories:
-  - Github Blog
+  - Etc
 tags:
   - [Blog, jekyll, Github, Git]
 

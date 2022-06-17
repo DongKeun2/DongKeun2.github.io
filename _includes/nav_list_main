@@ -6,28 +6,24 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            ✨ <span>전체 글 수</style> <span>{{sum}}</style> <span>개</style>
+            📒 <span>전체 글 수</style> <span>{{sum}}</style> <span>개</style>
       </li>
       <li>
-        
-                {% for category in site.categories %}
-                    {% if category[0] == "Project" %}
-                        <a href="/categories/project" class=""><span class="nav__sub-title">Project ({{category[1].size}})</span></a>
-                    {% endif %}
-                {% endfor %}
-        <span class="nav__sub-title">BackEnd</span>
+        {% for category in site.categories %}
+            {% if category[0] == "Project" %}
+                <a href="/categories/project" class=""><span class="nav__sub-title">Project ({{category[1].size}})</span></a>
+            {% endif %}
+        {% endfor %}
+        <span class="nav__sub-title">Web</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring" %}
-                        <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
+                    {% if category[0] == "Vue" %}
+                        <li><a href="/categories/vue" class="">Vue ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-        <span class="nav__sub-title">Native App</span>
-            <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Android" %}
-                        <li><a href="/categories/android" class="">Android ({{category[1].size}})</a></li>
+                    {% if category[0] == "React" %}
+                        <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -52,14 +48,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BOJ" %}
-                        <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/boj" class="">BaekJoon({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">Programmers({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -75,20 +71,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Trouble Shooting" %}
                         <li><a href="/categories/troubleshooting" class="">Trouble Shooting ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Github Blog" %}
-                        <li><a href="/categories/githubblog" class="">Github Blog ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Retrospect" %}
-                        <li><a href="/categories/retrospect" class="">회고 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

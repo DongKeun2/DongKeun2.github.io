@@ -1,5 +1,5 @@
 ---
-title: "백준"
+title: "BaekJoon"
 layout: archive
 permalink: categories/boj
 author_profile: true
