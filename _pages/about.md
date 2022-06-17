@@ -3,7 +3,7 @@ title: "About Me"
 permalink: /about/
 layout: single
 header:
-  overlay_image: /assets/Images/main-teaser.jpg
+  overlay_image:
   overlay_filter: 0.5
 ---
 
