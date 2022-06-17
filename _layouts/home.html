@@ -1,38 +1,22 @@
-{% include header.html %}
+---
+layout: archive
+---
 
-    {% include home-hero.html %}
+{{ content }}
 
-    <main id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-            {% if site.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.section_title }}</h2>
-            {% endif %}
-            {% if site.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-            {% endif %}
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-            <div class="break"></div>
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
 
-            {% for post in paginator.posts %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
-                {% include content-left.html %}
-              {% endif %}
-
-              {% if post.position == "right" %}
-                {% include content-right.html %}
-              {% endif %}
-              </div>
-            {% endfor %}
-
-            {% include pagination.html %}
-
-          </div>
-        </div>
-      </div>
-    </main>
-
-{% include footer.html %}
+{% include paginator.html %}
